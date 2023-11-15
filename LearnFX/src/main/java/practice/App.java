@@ -16,7 +16,7 @@ public class App extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		Button myButton = new Button();
-		myButton.setText("Hellow Meow!");
+		myButton.setText("Meow Meow");
 		BorderPane pane = new BorderPane();
 		pane.setCenter(myButton);
 		Scene scene = new Scene(pane,500,300);
